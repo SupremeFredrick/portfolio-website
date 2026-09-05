@@ -77,7 +77,7 @@ const projects = [
     detail:
       'A barber shop website with service listings, booking flow, and responsive custom styling.',
     stack: 'JavaScript / CSS / HTML',
-    appUrl: 'https://barber-shop-project-fy9xa162q-pope4.vercel.app',
+    appUrl: 'https://barber-shop-project-one.vercel.app',
     repositoryUrl: 'https://github.com/SupremeFredrick/Barber-Shop-Project',
   },
 ];
