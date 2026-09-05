@@ -1129,7 +1129,13 @@
 .credly-badge {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 32px;
   margin-top: 42px;
+}
+.credly-badge a {
+  display: inline-flex;
+  border: none;
 }
 .credly-badge iframe {
   border: none;

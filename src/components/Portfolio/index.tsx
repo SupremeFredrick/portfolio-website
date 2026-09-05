@@ -401,6 +401,19 @@ export default function Portfolio() {
                 unoptimized
               />
             </a>
+            <a
+              href='https://www.credly.com/org/coalition-of-information-technology-businesses-coit/badge/react-js-framework-developer'
+              target='_blank'
+              rel='noreferrer'
+              aria-label='React JS Framework Developer certification issued by COITB via Credly'
+            >
+              <Image
+                src='/images/badges/react-js-framework-developer.png'
+                alt='React JS Framework Developer certification badge issued by COITB'
+                width={150}
+                height={150}
+              />
+            </a>
           </div>
         </div>
       </section>
@@ -436,7 +449,7 @@ export default function Portfolio() {
                     >
                       Open application
                     </a>
-                    
+
                     <a
                       className='project-link'
                       href={project.repositoryUrl}
