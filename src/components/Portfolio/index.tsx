@@ -69,7 +69,7 @@ const projects = [
     stack: 'JavaScript / CSS / HTML',
     appUrl: 'https://the-beans-place-2b362aab4e7241199ee.vercel.app',
     repositoryUrl:
-      'https://github.com/SupremeFredrick/the-beans-place-8-10-2026',
+      'https://github.com/SupremeFredrick/the-beans-place-8-10-2026.git',
   },
   {
     id: '02',
@@ -78,7 +78,16 @@ const projects = [
       'A barber shop website with service listings, booking flow, and responsive custom styling.',
     stack: 'JavaScript / CSS / HTML',
     appUrl: 'https://barber-shop-project-one.vercel.app',
-    repositoryUrl: 'https://github.com/SupremeFredrick/Barber-Shop-Project',
+    repositoryUrl: 'https://github.com/SupremeFredrick/Barber-Shop-Project.git',
+  },
+  {
+    id: '03',
+    title: 'Mission Fit',
+    detail:
+      'A fitness planning app that uses profile details to personalize daily targets.',
+    stack: 'JavaScript / Dart / CSS / HTML',
+    appUrl: 'https://mission-fit-chi.vercel.app/',
+    repositoryUrl: 'https://github.com/SupremeFredrick/mission-fit.git',
   },
 ];
 
@@ -450,14 +459,16 @@ export default function Portfolio() {
                       Open application
                     </a>
 
-                    <a
-                      className='project-link'
-                      href={project.repositoryUrl}
-                      target='_blank'
-                      rel='noreferrer'
-                    >
-                      View source
-                    </a>
+                    {project.repositoryUrl && (
+                      <a
+                        className='project-link'
+                        href={project.repositoryUrl}
+                        target='_blank'
+                        rel='noreferrer'
+                      >
+                        View source
+                      </a>
+                    )}
                   </div>
                 </div>
               </article>
