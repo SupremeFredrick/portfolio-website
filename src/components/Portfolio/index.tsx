@@ -411,7 +411,7 @@ export default function Portfolio() {
               />
             </a>
             <a
-              href='https://www.credly.com/org/coalition-of-information-technology-businesses-coit/badge/react-js-framework-developer'
+              href='https://www.credly.com/badges/7f537e6f-26b7-4d42-ad94-c4492e874d22/public_url'
               target='_blank'
               rel='noreferrer'
               aria-label='React JS Framework Developer certification issued by COITB via Credly'
